@@ -8,7 +8,7 @@ export function TodoItem({completed,id,title,toggleTodo,deleteTodo}){
       </label>
       <button 
       onClick={()=>deleteTodo(id)}
-       className="btn-delete">Delete</button>
+       className="btn btn-delete">Delete</button>
     </li>
     )
 }
